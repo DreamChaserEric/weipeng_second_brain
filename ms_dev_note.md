@@ -1,10 +1,29 @@
 # MS开发笔记
 
-#### 分支命名规范
+## 分支命名规范
 - 正式分支示例： integration/official/1293m104
 - 个人开发分支示例： user/zenye/2-decimal-places 
 
-#### Telemetry
+## Code
+
+##### format
+```
+git ms format --upstream=origin/main
+```
+
+##### 更新流程
+```
+git pull
+gclient sync
+ios/build/tools/setup-gn.py
+```
+
+
+
+
+
+
+## Telemetry
 ##### histogram（最终发出去都是直方图）
 - 类型
 	- Enum
@@ -42,7 +61,7 @@
 - 参考链接
 	- [Adding Histograms walkthrough](https://microsoft.visualstudio.com/Edge/_wiki/wikis/Edge.wiki/103/Adding-Histograms-walkthrough)
 	- [Adding Histograms](https://docs.edgeteam.ms/docs/dataset/histograms/create/)
-	- 
+	- [zeng zhuohan的视频解说](https://microsoftapc-my.sharepoint.com/personal/zhuohanzeng_microsoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzhuohanzeng%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FEdge%5Fmobile%5Fhistograms%5Fand%5Fdata%5Fpipeline%5Fintro%2Emp4&parent=%2Fpersonal%2Fzhuohanzeng%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings&ga=1)
 
 
 	
