@@ -22,7 +22,7 @@
 类和接口一般都出现在包中。略。
 
 ### 关系
-![img](./imgs/wp_s_b_1.jpg)
+![img](https://github.com/DreamChaserEric/weipeng_second_brain/blob/main/imgs/wp_s_b_1.jpg)
 
 - 实现关系（接口与类之间）
 
