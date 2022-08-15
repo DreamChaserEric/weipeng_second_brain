@@ -17,6 +17,15 @@ git pull
 gclient sync
 ios/build/tools/setup-gn.py
 ```
+##### build
+```
+cd $ROOT/src/out/Debug-iphonesimulator
+autoninja chrome
+```
+```
+cd $ROOT/src/out/build
+open all.xcodeproj
+```
 
 
 
