@@ -26,7 +26,12 @@ autoninja chrome
 cd $ROOT/src/out/build
 open all.xcodeproj
 ```
-
+##### 新增文件
+- 修改文件名驼峰改成下划线
+- 增加宏定义，防止include重复
+- 修改lisence
+- arc mrc def
+- 修改gn
 
 
 
