@@ -6,9 +6,14 @@
 
 ## Code
 
-##### format
+##### format & check & presubmit
 ```
 git ms format --upstream=origin/main
+
+gn check out/Debug-iphonesimulator
+
+git ms presubmit main --force
+
 ```
 
 ##### 更新流程
