@@ -2,7 +2,7 @@
 
 ## 分支命名规范
 - 正式分支示例： integration/official/1293m104
-- 个人开发分支示例： user/zenye/2-decimal-places 
+- 个人开发分支示例： user/weipengli/2-decimal-places 
 
 ## Code
 
@@ -37,6 +37,24 @@ open all.xcodeproj
 - 修改lisence
 - arc mrc def
 - 修改gn
+
+##### FeatureFlag
+[文档](https://microsoft.visualstudio.com/Edge/_wiki/wikis/Edge.wiki/5612/Add-feature-flag-in-Edge-flags)
+
+[PR](https://microsoft.visualstudio.com/Edge/_git/chromium.src/pullrequest/7766593)
+
+
+##### 引入三方库
+- Incident创建Repo 
+	+ [Incident Address](https://portal.microsofticm.com/imp/v3/incidents/details/300186510/home)
+	+ [Incident Masonry](https://portal.microsofticm.com/imp/v3/incidents/details/330182448/home)
+	+ [lottie repo](https://microsoft.visualstudio.com/Edge/_git/airbnb.lottie-ios)
+- Compliance
+- 使用
+	+ CIPD（.framework）
+	+ 源码 [PR](https://microsoft.visualstudio.com/Edge/_git/chromium.src/pullrequest/7242692)
+
+
 
 
 ## Crash
