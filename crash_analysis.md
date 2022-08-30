@@ -2,6 +2,9 @@
 
 参考链接： [掘金](https://juejin.cn/post/7030619552211795982)
 
+## ips导出
+![export](/imgs/wp_s_b_2.png)
+
 ## symbolicatecrash
 首先通过终端找到 symbolicatecrash 路径, 通过 ./symbolicatecrash 结合 dsym 和提供的 crash/ips/beta 文件来进行符号化。
 #### 路径
