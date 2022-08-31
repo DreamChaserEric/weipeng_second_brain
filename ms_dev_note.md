@@ -8,7 +8,7 @@
 
 ##### format & check & presubmit
 ```
-git ms format --upstream=origin/main
+git
 
 gn check out/Debug-iphonesimulator
 
@@ -53,6 +53,9 @@ open all.xcodeproj
 - 使用
 	+ CIPD（.framework）
 	+ 源码 [PR](https://microsoft.visualstudio.com/Edge/_git/chromium.src/pullrequest/7242692)
+
+- 1.建mirror repo [link](https://microsoft.visualstudio.com/Edge/_wiki/wikis/Edge.wiki/71192/Engineering-System-Requests?anchor=azure-devops-(ado)-requests)
+- 2. 集成没有啥特别的文档，就是DEPS加进去clone到third_party的目录，然后就是写gn，可以参考现有的库
 
 
 
@@ -106,7 +109,7 @@ open all.xcodeproj
 
 ## 对接人
 MSB    yang shen
-
+citrix   ctx    michael fei     Tiantong Wu
 
 
 	
