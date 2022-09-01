@@ -8,7 +8,7 @@
 
 ##### format & check & presubmit
 ```
-git
+git ms format --upstream=origin/main
 
 gn check out/Debug-iphonesimulator
 
