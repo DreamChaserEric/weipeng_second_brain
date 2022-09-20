@@ -26,3 +26,8 @@
 ##### 丢弃指定Commit
 1. 找到目前commit id 之前的id(commit id 2)
 2. git rebase -i (commit id 2)
+
+##### Clone仓库并丢弃历史
+```
+git clone --depth 1 https://microsoft.visualstudio.com/DefaultCollection/Edge/_git/chromium.src
+```

@@ -110,6 +110,7 @@ open all.xcodeproj
 ## 对接人
 MSB    yang shen
 citrix   ctx    michael fei     Tiantong Wu
+Intune    michael fei
 LibsmartScreen   Bear Dong Ye tian
 
 
