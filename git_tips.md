@@ -31,3 +31,13 @@
 ```
 git clone --depth 1 https://microsoft.visualstudio.com/DefaultCollection/Edge/_git/chromium.src
 ```
+
+##### git获取远程仓库地址
+```
+git remote -v
+```
+
+##### git仅更新指定的远程branch
+```
+git pull -r origin xxxx
+```
