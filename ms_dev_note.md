@@ -24,6 +24,10 @@ ios/build/tools/setup-gn.py
 ```
 ##### build
 ```
+// Goma
+vpython $GOMACLIENTDIR/goma_ctl.py ensure_start
+```
+```
 cd $ROOT/src/out/Debug-iphonesimulator
 autoninja chrome
 ```
@@ -64,7 +68,7 @@ open all.xcodeproj
 ##### DYSM下载
 [下载地址](https://microsoft.visualstudio.com/Edge/_build?definitionScope=%5COfficial%5CPromotion)
 
-
+## PUMP
 
 ## Telemetry
 ##### histogram（最终发出去都是直方图）
@@ -106,12 +110,6 @@ open all.xcodeproj
 	- [Adding Histograms](https://docs.edgeteam.ms/docs/dataset/histograms/create/)
 	- [zeng zhuohan的视频解说](https://microsoftapc-my.sharepoint.com/personal/zhuohanzeng_microsoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzhuohanzeng%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FEdge%5Fmobile%5Fhistograms%5Fand%5Fdata%5Fpipeline%5Fintro%2Emp4&parent=%2Fpersonal%2Fzhuohanzeng%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings&ga=1)
 
-
-## 对接人
-MSB    yang shen
-citrix   ctx    michael fei     Tiantong Wu
-Intune    michael fei
-LibsmartScreen   Bear Dong Ye tian
 
 
 	
