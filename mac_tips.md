@@ -12,6 +12,18 @@ defaults write com.apple.Finder AppleShowAllFiles YES;KillAll Finder
 defaults write com.apple.Finder AppleShowAllFiles NO;KillAll Finder
 ```
 
+#### 查看mac是x86还是arm
+```
+uname -a
+```
+
+#### 查看MacOS使用的是什么样的Shell
+```
+// 回车执行如果输出的是：csh或者是tcsh，那么你用的就是C Shell
+// 如果输出的是：bash，sh，zsh，那么你的用的可能就是Bourne Shell的一个变种
+echo $SHELL
+```
+
 #### SSH配置
 git使用SSH配置， 初始需要以下三个步骤
 - 使用秘钥生成工具生成rsa秘钥和公钥
