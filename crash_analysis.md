@@ -52,5 +52,5 @@ python3 CrashSymbolicator.py -d /dSYMs -o /xxxSymbo.crash -p /xxxCrash.ips
 ```
 
 ```
-python3 /Applications/Xcode.app/Contents/SharedFrameworks/CoreSymbolicationDT.framework/Versions/A/Resources/CrashSymbolicator.py -d /Users/weipengli/Desktop/symbolicatecrash/libsmartscreen.dSYM -p /Users/weipengli/Desktop/symbolicatecrash/Edge-2022-08-17-123024.ips -o smart.crash
+python3 /Applications/Xcode.app/Contents/SharedFrameworks/CoreSymbolicationDT.framework/Versions/A/Resources/CrashSymbolicator.py -d /Users/weipengli/Desktop/symbolicatecrash/dsym -p /Users/weipengli/Desktop/symbolicatecrash/crash.ips -o symbolicated.ips
 ```
