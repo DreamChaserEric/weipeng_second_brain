@@ -20,7 +20,7 @@ chmod +x test.py
 		- 创建virtualenv:
 			+ virtualenv demo1_env
 			+ python -m venv demo1_env(基于python2.7版本)
-			+ python3 -m env demo1_env(基于python3版本）
+			+ python3 -m venv demo1_env(基于python3版本）
 		- 激活virtualenv:
 			+ source demo1_env/bin/activate
 		- 关闭virtualenv:
