@@ -1,5 +1,18 @@
 # mac_tips
 
+#### 修改hostName
+```
+sudo scutil --set HostName edge-robuster
+sudo scutil --set LocalHostName edge-robuster
+sudo scutil --set ComputerName edge-robuster
+```
+
+#### 修改netbiosname
+```
+Killall -9 cfprefsd
+sudo defaults delete /Library/Preferences/SystemConfiguration/com.apple.smb.server.plist
+```
+
 #### 设置文件默认打开方式
 - 右键点击文件在下拉菜单中选择【显示简介】
 - 在简介窗口中点击【打开方式】下拉框，软化在下拉菜单中选择默认打开的软件

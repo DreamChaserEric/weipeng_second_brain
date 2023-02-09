@@ -65,6 +65,10 @@ open all.xcodeproj
 ## PGAdmin
 
 
+## 打包
+build: https://microsoft.visualstudio.com/Edge/_build?definitionId=50496
+sign: https://microsoft.visualstudio.com/Edge/_build?definitionId=50995&_a=summary
+
 
 ## Crash
 ##### DYSM下载
