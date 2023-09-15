@@ -14,6 +14,11 @@ gn check out/Debug-iphonesimulator
 
 git ms presubmit main --force
 
+git fetch origin main
+git ms format --upstream=origin/main
+git ms presubmit origin/main
+git ms presubmit --commit origin/main
+
 ```
 
 ##### 更新流程
@@ -35,12 +40,20 @@ autoninja chrome
 cd $ROOT/src/out/build
 open all.xcodeproj
 ```
+```
+./tools/boilerplate.py ios/chrome/browser/ui/edge_top_sites_revamp/edge_top_sites_ntp_revamp_cell.h ios/chrome/browser/ui/edge_top_sites_revamp/edge_top_sites_ntp_revamp_cell.mm
+```
 ##### 新增文件
+```
+edge/src/tools/boilerplate.py
+```
+
 - 修改文件名驼峰改成下划线
 - 增加宏定义，防止include重复
 - 修改lisence
 - arc mrc def
 - 修改gn
+- edge/src/tools/boilerplate.py
 
 ##### FeatureFlag
 [文档](https://microsoft.visualstudio.com/Edge/_wiki/wikis/Edge.wiki/5612/Add-feature-flag-in-Edge-flags)
