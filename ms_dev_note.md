@@ -19,6 +19,8 @@ git ms format --upstream=origin/main
 git ms presubmit origin/main
 git ms presubmit --commit origin/main
 
+python3 ./anaheim/SourceScanner/lint.py --mode documentURLs --scanDirectory ./components/edge_mobile_top_sites/core/browser/providers
+
 ```
 
 ##### 更新流程
@@ -128,6 +130,10 @@ sign: https://microsoft.visualstudio.com/Edge/_build?definitionId=50995&_a=summa
 	- [Adding Histograms walkthrough](https://microsoft.visualstudio.com/Edge/_wiki/wikis/Edge.wiki/103/Adding-Histograms-walkthrough)
 	- [Adding Histograms](https://docs.edgeteam.ms/docs/dataset/histograms/create/)
 	- [zeng zhuohan的视频解说](https://microsoftapc-my.sharepoint.com/personal/zhuohanzeng_microsoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fzhuohanzeng%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FEdge%5Fmobile%5Fhistograms%5Fand%5Fdata%5Fpipeline%5Fintro%2Emp4&parent=%2Fpersonal%2Fzhuohanzeng%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings&ga=1)
+
+
+
+git gc --prune=now
 
 
 
